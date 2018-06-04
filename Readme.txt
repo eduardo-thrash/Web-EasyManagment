@@ -61,14 +61,3 @@ Información basica
 	Identificacción
 	Ubicación
 	Nombre representable
-
-#1d809f!important
------------------------------------------
-
-
-Master
-
-Experimental
-
-Eduardo
-Tatiana
