@@ -18,19 +18,6 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-    <!-- Animate.css -->
-	<link rel="stylesheet" href="cssForm/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="cssForm/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="cssForm/bootstrap.css">
-	<!-- Superfish -->
-	<link rel="stylesheet" href="cssForm/superfish.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="cssForm/flexslider.css">
-
-	<link rel="stylesheet" href="cssForm/style.css">
-
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
@@ -47,10 +34,10 @@
                 <a class="js-scroll-trigger" href="index.html">Easy Managment</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="Panel.html">Inicio</a>
+                <a class="js-scroll-trigger" href="#">Inicio</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#">Clientes</a>
+                <a class="js-scroll-trigger" href="Clients.html">Clientes</a>
             </li>
             <li class="sidebar-nav-item">
                 <a class="js-scroll-trigger" href="Providers.html">Proveedores</a>
@@ -76,90 +63,73 @@
         </ul>
     </nav>
 
-<section class="content-section bg-primary text-white text-center" id="services">
-  <div class="row" style="padding-Top: 4rem;">
-    <div class="col-sm-7">
-    </div>
-    <div class="col-sm-2">
-      <span>
-        <h2>Clientes</h2>
-      </span>
-    </div>
-    <div class="col-sm-2">
-      <span>
-        <h2><i class="icon-like"></i></h2>
-      </span>
-    </div>
-    <div class="col-sm-1">
-    </div>
-</section>
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0" style="padding: 10px; color: blue;">Easy Managment</h3>
+          <h2 class="mb-5">Menu</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-4">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Clientes</h2>
+                  <p class="mb-0">Clientes a quienes se les ofrecen servicios o realizan ventas.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/clientes.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Proveedores</h2>
+                  <p class="mb-0">Proveedores a los cuales se les realizan compras o se le realizan ventas.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/proveedores.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Ventas</h2>
+                  <p class="mb-0">Ventas generadas en la compañía hacia clientes de tipo general.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/ventas.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Gastos</h2>
+                  <p class="mb-0">Gastos generales de tipo menor a nivel monetario.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/gastos.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Compras</h2>
+                  <p class="mb-0">Compras realizadas por concepto.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/compras.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <hr />
-  <div id="fh5co-work-section" style="padding: 70px 0;">
-  <form>
-    <div class="container">
-    <div class="row">
-    <div class="col-sm-6">
-      Nombre
-      <br>
-      <input type="text" name="name" class="FullWidth">
-      <br>
-      Numero de identificación
-      <br>
-      <input type="text" name="identification" class="FullWidth">
-      <br>
-      Telefono
-      <br>
-      <input type="text" name="phone" class="FullWidth">
-      <br>
-      Fecha de nacimiento
-      <br>
-      <input type="date" name="bday" class="FullWidth">
-    </div>
-    <div class="col-sm-6">
-      Apellido
-      <br>
-      <input type="text" name="lastname" class="FullWidth">
-      <br>
-      Email
-      <br>
-      <input type="email" name="email" class="FullWidth">
-      <br>
-      Dirección
-      <br>
-      <input type="address" name="address" class="FullWidth">
-      Genero
-      <br>
-      <div class="col-sm-3" style="padding: 5px;">
-        <input type="radio" name="gender" value="male" checked> Male
-      </div>
-      <div class="col-sm-3" style="padding: 5px;">
-        <input type="radio" name="gender" value="female"> Female
-      </div>
-      <div class="col-sm-3" style="padding: 5px;">
-        <input type="radio" name="gender" value="other"> Other
-      </div>
-      <br>
-      <br>
-    </div>
-    <div class="col-sm-12">
-      <br>
-      <input type="button" onclick="alert('Hello World!')" value="Save" style="float: right; padding: 2px 50px 5px 50px;" id="Save">
-    </div>
-    </div>
-    </div>
-    </div>
-  </form>
-  <hr />
-</section>
-
-<footer style="position:inherit;">
-  <div id="footer">
-      <div class="row copy-right">
-      </div>
-  </div>
-</footer>
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
       <i class="fa fa-angle-up"></i>
