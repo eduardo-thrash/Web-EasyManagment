@@ -19,6 +19,10 @@ Proveedores
 	Nombe
 	NIT
 	Sector
+	Contacto
+	Identificación Contacto
+	Telefono Contacto
+	Email Contacto
 
 Gastos
 	Fecha
@@ -31,7 +35,8 @@ Ventas
 	Fecha
 	venta($)
 	Observaciones
-
+EasyManagmentAutoProject
+EDThrashAutoProject
 Compras
 	Fecha
 	Factura
@@ -56,3 +61,14 @@ Información basica
 	Identificacción
 	Ubicación
 	Nombre representable
+
+#1d809f!important
+-----------------------------------------
+
+
+Master
+
+Experimental
+
+Eduardo
+Tatiana
